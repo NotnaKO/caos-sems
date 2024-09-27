@@ -1,6 +1,3 @@
-project(asm_x86_64 C)
+project(asm_x86_64 C ASM)
 
-set(CMAKE_C_STANDARD 17)
-
-
-add_executable(asm_x86_64 main.c)
+add_subdirectory(mul)
